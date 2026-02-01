@@ -1,6 +1,5 @@
 # bondedhackatbrown
 
-Single-repo hackathon snapshot with the Bonded frontend and Link backend.
 
 ## Layout
 - `frontend/`: copy of the Bonded-Official app. Work with this folder when discussing the UI or mobile app.
@@ -14,6 +13,3 @@ Single-repo hackathon snapshot with the Bonded frontend and Link backend.
 ## Running
 - Follow each project’s own README inside `frontend/` or `backend/` to install and run the apps locally.
 
-## Submission
-- Push this repo to the hackathon remote (e.g., `origin` on bondedhackatbrown).
-- Keep continuing the real work in the separate repos—this one is just a bundled snapshot.
