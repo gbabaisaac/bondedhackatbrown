@@ -1,0 +1,64 @@
+{
+  "React Native Functional Component Export": {
+    "prefix": "rnfe",
+    "body": [
+      "import React from 'react';",
+      "import { View, Text } from 'react-native';",
+      "",
+      "const ${1:ComponentName} = () => {",
+      "  return (",
+      "    <View>",
+      "      <Text>${1:ComponentName}</Text>",
+      "    </View>",
+      "  );",
+      "};",
+      "",
+      "export default ${1:ComponentName};"
+    ],
+    "description": "React Native Functional Component with Export Default"
+  },
+  "React Native Functional Component": {
+    "prefix": "rnf",
+    "body": [
+      "import React from 'react';",
+      "import { View, Text } from 'react-native';",
+      "",
+      "const ${1:ComponentName} = () => {",
+      "  return (",
+      "    <View>",
+      "      <Text>${1:ComponentName}</Text>",
+      "    </View>",
+      "  );",
+      "};"
+    ],
+    "description": "React Native Functional Component"
+  },
+  "React Native Functional Component with StyleSheet": {
+    "prefix": "rnfs",
+    "body": [
+      "import React from 'react';",
+      "import { View, Text, StyleSheet } from 'react-native';",
+      "",
+      "const ${1:ComponentName} = () => {",
+      "  return (",
+      "    <View style={styles.container}>",
+      "      <Text style={styles.text}>${1:ComponentName}</Text>",
+      "    </View>",
+      "  );",
+      "};",
+      "",
+      "const styles = StyleSheet.create({",
+      "  container: {",
+      "    flex: 1,",
+      "  },",
+      "  text: {",
+      "    ",
+      "  },",
+      "});",
+      "",
+      "export default ${1:ComponentName};"
+    ],
+    "description": "React Native Functional Component with StyleSheet"
+  }
+}
+
